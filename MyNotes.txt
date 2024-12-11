@@ -1,0 +1,26 @@
+Backend Requires two major components.
+
+1. Programming Language/Framework
+2. Database/ORM/ODM
+
+Database is always on other continent.
+// Backend either handles data , File , API
+
+Directory Structure
+package.json , .env , readme,.git,prettier
+
+In src folder
+
+// directories in src folder
+-> DB
+-> Models
+-> Controllers
+-> Routes
+-> Middlewares
+-> utils
+-> more (depends)
+
+// files in src folder
+index -> db connection
+app -> config,cookie
+constants -> enums,db-name
